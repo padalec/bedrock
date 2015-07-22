@@ -36,6 +36,9 @@ define('CONTENT_DIR', '/app');
 define('WP_CONTENT_DIR', $webroot_dir . CONTENT_DIR);
 define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
 
+if (defined('WP_CACHE') && WP_CACHE) {
+   define('WPCACHEHOME', WP_CONTENT_DIR .'/plugins/wp-super-cache/' );
+}
 /**
  * DB settings
  */
@@ -45,7 +48,7 @@ define('DB_PASSWORD', getenv('DB_PASSWORD'));
 define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
-$table_prefix = getenv('DB_PREFIX') ?: 'wp_';
+$table_prefix = getenv('DB_PREFIX') ?: 'wp__';
 
 /**
  * Authentication Unique Keys and Salts
