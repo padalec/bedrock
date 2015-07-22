@@ -43,7 +43,24 @@
     "php": ">=5.3",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "~1.0.9",
-    "johnpbloch/wordpress": "4.2.2"
+    "johnpbloch/wordpress": "4.2.2",
+    "fancyguy/webroot-installer": "1.1.0",
+    "wp-cli/wp-cli": "v0.13.0",
+    "wpackagist-plugin/wpfront-user-role-editor": "2.*",
+    "wpackagist-plugin/contact-form-7": "4.2.*",
+    "wpackagist-plugin/admin-column-view": "1.0.*",
+    "wpackagist-plugin/admin-renamer-extended": "3.*",
+    "wpackagist-plugin/email-encoder-bundle": "1.4.*",
+    "wpackagist-plugin/wordpress-seo": "2.2.*",
+    "wpackagist-plugin/wordpress-importer": "0.6.*",
+    "wpackagist-plugin/regenerate-thumbnails": "2.2.*",
+    "wpackagist-plugin/nk-google-analytics": "1.4.*",
+    "wpackagist-plugin/wp-mail-smtp": "0.9.*",
+    "wpackagist-plugin/better-wp-security": "3.5.*",
+    "wpackagist-plugin/all-in-one-wp-security-and-firewall": "2.6.*",
+    "wpackagist-plugin/wp-super-cache": "1.4.4",
+    "wpackagist-plugin/disable-emojis": "1.5",
+    "roots/soil": "3.4.0"
   },
   "extra": {
     "installer-paths": {
