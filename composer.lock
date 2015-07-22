@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "181c42a456f3cc1d15c4c94c85c6e94f",
+    "hash": "62f842b37ce00324d81a59dad6a05be0",
     "packages": [
         {
             "name": "composer/installers",
@@ -413,16 +413,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.7.1",
+            "version": "v2.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "c13a40d638aeede1e8400f8c956c7f9246c05f75"
+                "reference": "ae0f363277485094edc04c9f3cbe595b183b78e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/c13a40d638aeede1e8400f8c956c7f9246c05f75",
-                "reference": "c13a40d638aeede1e8400f8c956c7f9246c05f75",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/ae0f363277485094edc04c9f3cbe595b183b78e4",
+                "reference": "ae0f363277485094edc04c9f3cbe595b183b78e4",
                 "shasum": ""
             },
             "require": {
@@ -458,20 +458,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2015-06-04 20:11:48"
+            "time": "2015-07-09 16:07:40"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v1.0.9",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "56c252d48dce336da97926591aed71805203815b"
+                "reference": "91064290f5b53a09bdff1b939d7f69fb0e7531b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/56c252d48dce336da97926591aed71805203815b",
-                "reference": "56c252d48dce336da97926591aed71805203815b",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/91064290f5b53a09bdff1b939d7f69fb0e7531b5",
+                "reference": "91064290f5b53a09bdff1b939d7f69fb0e7531b5",
                 "shasum": ""
             },
             "require": {
@@ -481,14 +481,9 @@
                 "phpunit/phpunit": "~4.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
             "autoload": {
-                "psr-0": {
-                    "Dotenv": "src/"
+                "psr-4": {
+                    "Dotenv\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -509,7 +504,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2014-10-16 14:50:21"
+            "time": "2015-05-30 16:15:01"
         },
         {
             "name": "wp-cli/php-cli-tools",
@@ -667,26 +662,6 @@
             "homepage": "https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/"
         },
         {
-            "name": "wpackagist-plugin/backwpup",
-            "version": "3.1.4",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/backwpup/",
-                "reference": "tags/3.1.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/backwpup.3.1.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/backwpup/"
-        },
-        {
             "name": "wpackagist-plugin/better-wp-security",
             "version": "3.5.7",
             "source": {
@@ -807,26 +782,6 @@
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
         },
         {
-            "name": "wpackagist-plugin/w3-total-cache",
-            "version": "0.9.4.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/w3-total-cache/",
-                "reference": "tags/0.9.4.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.4.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
-        },
-        {
             "name": "wpackagist-plugin/wordpress-importer",
             "version": "0.6.1",
             "source": {
@@ -905,26 +860,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-super-cache/"
-        },
-        {
-            "name": "wpackagist-plugin/wpfront-scroll-top",
-            "version": "1.4.3",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wpfront-scroll-top/",
-                "reference": "tags/1.4.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wpfront-scroll-top.1.4.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wpfront-scroll-top/"
         },
         {
             "name": "wpackagist-plugin/wpfront-user-role-editor",
